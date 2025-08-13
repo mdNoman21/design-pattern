@@ -118,7 +118,7 @@ You want to swap eviction algorithms without changing your cache implementation,
 Illustration:
 
 go
-```type EvictionAlgorithm interface {
+``` type EvictionAlgorithm interface {
     Evict(c *Cache)
 }
 
@@ -142,7 +142,8 @@ func main() {
     // fill cache, call cache.Remove() -- will use LRU
     cache.SetEvictionAlgorithm(FIFO{})
     // further removals now use FIFO algorithm
-}```
+}
+```
 This allows you to switch eviction logic at runtime, permitting extensibility (adding new algorithms) and keeping your Cache class decoupled from the actual algorithm implementations.
 
 ### Why the Strategy Pattern?
