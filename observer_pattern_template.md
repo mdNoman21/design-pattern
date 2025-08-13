@@ -74,15 +74,15 @@ func main() {
 }
 ```
 ## How to Use This Template
-### Observer: Interface for objects that should react to changes/events.
+1. Observer: Interface for objects that should react to changes/events.
 
-### Subject: Interface/type for things that send out notifications.
+2. Subject: Interface/type for things that send out notifications.
 
-### ConcreteSubject: Tracks observers, implements add/remove/notify.
+3. ConcreteSubject: Tracks observers, implements add/remove/notify.
 
-### ConcreteObserver: Implements the Observer interface, reacts to updates.
+4. ConcreteObserver: Implements the Observer interface, reacts to updates.
 
-### Register/Remove/Notify: Manage observers and send updates.
+5. Register/Remove/Notify: Manage observers and send updates.
 
 # Real-world usage:
 
