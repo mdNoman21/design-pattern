@@ -1,9 +1,3 @@
-Got it ✅ — here’s your **beautified README.md** code with clear Markdown formatting, headings, syntax highlighting, and better structure.  
-You can copy-paste this directly into a `.md` file.
-
-***
-
-```markdown
 # 📢 Universal Observer Pattern Template (Go)
 
 The **Observer Pattern** defines a one-to-many dependency where when one object (the *Subject*) changes state, all its dependents (the *Observers*) are notified automatically.
@@ -222,6 +216,4 @@ func main() {
 > - You want to **add new observers without changing the core publishing logic**.
 
 ---
-```
 
-***
